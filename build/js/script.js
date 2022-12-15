@@ -56,3 +56,13 @@ const gsTitle = {
 
 gsTitle.init();
 gsTitle.on();
+
+
+$("document").ready(function() {
+  var options = {  videoId: 'QZAEV3UhhOc',
+                   start: 0,
+                   repeat: true
+                };
+
+	$('#wrapper').tubular(options);
+});

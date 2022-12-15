@@ -46,7 +46,7 @@ body::before {
   top: 0;
   animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
 }
-
+// --------------------------------
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -69,7 +69,6 @@ body::before {
   position: absolute;
   left: -2px;
   text-shadow: -5px 0 magenta;
-  background: rgba(0, 0, 0, 0);
   overflow: hidden;
   top: 0;
   animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
@@ -80,7 +79,6 @@ body::before {
   position: absolute;
   left: 2px;
   text-shadow: -5px 0 lightgreen;
-  background: rgba(85, 19, 19, 0.308);
   overflow: hidden;
   top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
@@ -96,7 +94,7 @@ body::before {
 }
 
 @keyframes noise-1 {
-  $steps: 30;
+  $steps: 5;
   @for $i from 1 through $steps {
     #{percentage($i*(1/$steps))} {
       $top: random(100);
@@ -107,7 +105,7 @@ body::before {
 }
 
 @keyframes noise-2 {
-  $steps: 30;
+  $steps: 5;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
       $top: random(100);
@@ -179,7 +177,7 @@ body::before {
     transform: rotateX(0deg) skewX(0deg);
   }
 }
-
+// ----------------------------------------------------------------------------------
 .btn {
   z-index: 1000;
   color: white;
