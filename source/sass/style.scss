@@ -361,31 +361,26 @@ a {
   position: fixed;
   bottom: 5%;
   left: 50%;
-  transform: translate(-70%,-50%);
+  transform: translate(-50%,-50%);
   z-index: 1001;
 
   input {
     background-color: transparent;
     font-size: 28px;
     color: white;
-    text-decoration: underline;
+    font-family: 'japan-it', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: none;
     text-align: right;
-    position: relative;
+    pointer-events: none;
   }
 
   button {
-    font-size: 0;
+    font-family: 'japan-it', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
     background-color: transparent;
     border-radius: 0;
-    background-image: url('../img/PngItem_5812945.png');
-    background-size: contain;
-    background-position: center;
     background-repeat: no-repeat;
     border-color: transparent;
-    width: 35px;
-    height: 35px;
-    position: absolute;
     cursor: pointer;
     right: - 52px;
     top: 2px;

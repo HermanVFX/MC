@@ -58,7 +58,6 @@ gsTitle.init();
 gsTitle.on();
 
 
-
 function myFunction() {
   var copyText = document.getElementById("myInput");
 
