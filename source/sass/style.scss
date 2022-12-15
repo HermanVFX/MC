@@ -66,7 +66,7 @@ body::before {
 }
 
 .glitch {
-  color: rgb(223, 191, 191);
+  color: rgb(253, 253, 253);
   position: relative;
   margin-top: 25%;
   font-size: 9vw;
@@ -78,7 +78,7 @@ body::before {
   content: attr(data-text);
   position: absolute;
   left: -2px;
-  text-shadow: -5px 0 magenta;
+  text-shadow: -5px 0 rgba(216, 48, 76, 0.808);
   overflow: hidden;
   top: 0;
   animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
@@ -88,7 +88,7 @@ body::before {
   content: attr(data-text);
   position: absolute;
   left: 2px;
-  text-shadow: -5px 0 lightgreen;
+  text-shadow: -5px 0 rgba(45, 150, 211, 0.63);
   overflow: hidden;
   top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
