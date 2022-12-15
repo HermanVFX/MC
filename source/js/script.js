@@ -58,11 +58,12 @@ gsTitle.init();
 gsTitle.on();
 
 
-$("document").ready(function() {
-  var options = {  videoId: 'QZAEV3UhhOc',
-                   start: 0,
-                   repeat: true
-                };
+function myFunction() {
+  var copyText = document.getElementById("myInput");
 
-	$('#wrapper').tubular(options);
-});
+  copyText.select();
+
+  document.execCommand("copy");
+
+  alert("Copied the text: " + copyText.value);
+}

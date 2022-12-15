@@ -286,7 +286,7 @@ body::before {
   overflow: hidden;
   right: 25px;
   height: 80%;
-  bottom: -1px;
+  bottom: -20px;
   opacity: 0.95;
 
   img {
@@ -303,7 +303,7 @@ body::before {
   overflow: hidden;
   right: 35px;
   height: 80%;
-  bottom: -1px;
+  bottom: -20px;
   opacity: 0.85;
 
   img {
@@ -355,4 +355,39 @@ body::before {
 a {
   text-decoration: none;
   color: white;
+}
+
+.copytext {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-70%,-50%);
+  z-index: 1001;
+
+  input {
+    background-color: transparent;
+    font-size: 28px;
+    color: white;
+    text-decoration: underline;
+    border: none;
+    text-align: right;
+    position: relative;
+  }
+
+  button {
+    font-size: 0;
+    background-color: transparent;
+    border-radius: 0;
+    background-image: url('../img/PngItem_5812945.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    cursor: pointer;
+    right: - 52px;
+    top: 2px;
+  }
 }
